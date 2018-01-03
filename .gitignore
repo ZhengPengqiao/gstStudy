@@ -1,52 +1,46 @@
-# Prerequisites
-*.d
+# C++ objects and libs
 
-# Object files
+*.slo
+*.lo
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
 *.a
 *.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
+*.lai
 *.so
-*.so.*
+*.dll
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Qt-es
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+
+*.autosave
+
+# QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCtreator CMake
+CMakeLists.txt.user*
